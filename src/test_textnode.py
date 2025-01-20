@@ -25,6 +25,16 @@ class TestTextNode(unittest.TestCase):
     def test_repr(self):
         node = TextNode("This is a text node", TextType.TEXT, "https://www.google.com")
         self.assertEqual("TextNode(This is a text node, text, https://www.google.com)", repr(node))
+    
+    def test_extract_markdown_images(self):
+        text = "This is text with a ![cat gif](https://i.imgur.com/j7QuhCy.gif) and ![cat jpeg](https://i.imgur.com/t05Cu86.jpeg)"
+        excpected = ([("cat gif", "https://i.imgur.com/j7QuhCy.gif"), ("cat jpeg", "https://i.imgur.com/t05Cu86.jpeg")])
+        self.assertEqual(extract_markdown_images(text), excpected)
+
+    def test_extract_markdown_links(self):
+        text = "This is text with a link [to google](https://www.google.com) and [to youtube](https://www.youtube.com)"
+        excpected = ([('to google', 'https://www.google.com'), ('to youtube', 'https://www.youtube.com')])
+        self.assertEqual(extract_markdown_links(text), excpected)     
 
 class TestTextNodeToHTMLNode(unittest.TestCase):
     def test_normal_text(self):
