@@ -1,44 +1,24 @@
-# Tolkien Fan Club
+TO-DO
+========================
+![da dog](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFUAfyVe3Easiycyh3isP9wDQTYuSmGPsPQvLIJdEYvQ_DsFq5Ez2Nh_QjiS3oZ3B8ZPfK9cZQyIStmQMV1lDPLw)
+- [x] make babar tea
+- [] play split fiction
+- [] go to sleep
 
-![JRR Tolkien sitting](/images/tolkien.png)
-
-Here's the deal, **I like Tolkien**.
-
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
-
-## Blog posts
-
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
-
-## Reasons I like Tolkien
-
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney *didn't ruin it* (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
-
-## My favorite characters (in order)
-
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
-
-Here's what `elflang` looks like:
-
+# Header
 ```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
+code
 ```
+>quote
 
-Want to get in touch? [Contact me here](/contact).
+- list
+- random
+- unordered
+
+1. one
+2. two 
+3. three
+2. the numbers do not matter
+
+Saturday 15. March 2025 (21:48:35.005)
+
